@@ -81,3 +81,24 @@ h1 {
   height: auto;
   border-radius: 8px;
 }
+
+footer {
+  text-align: center;
+  padding: 16px;
+  background-color: var(--primary-color);
+  color: var(--accent1-color);
+}
+
+.socialmedia {
+  margin-top: 12px;
+  display:flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.socialmedia img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+}
