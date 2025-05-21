@@ -68,3 +68,16 @@ h1 {
   float: right;
   width: 125px;
 }
+
+.adventure-gallery {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:10px;
+}
+
+.adventure-gallery img {
+  width:160px;
+  height: auto;
+  border-radius: 8px;
+}
