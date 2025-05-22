@@ -64,6 +64,15 @@ h1 {
   color: #ffffff; 
 }
 
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #ffd4ff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
 .hero article img {
   float: right;
   width: 125px;
