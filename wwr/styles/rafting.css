@@ -21,7 +21,7 @@ body {
 
 header {
   display: grid;
-  grid-template-columns:auto 1fr;
+  grid-template-columns:auto 1fr auto;
   align-items:center;
   padding:20px 40px;
   background-color:var(--primary-color);
@@ -30,9 +30,17 @@ header {
 .logo {
   height: 80px;
 }
+.logo img {
+  max-width: 100px;
+  height:auto;
+}
 
 nav {
   display: flex;
+  gap: 0;
+  border: 1px solid #333;
+  border-radius: 4px;
+  overflow: hidden;
   justify-content: flex-end;
 }
 
@@ -43,7 +51,10 @@ nav a {
   gap:30px;
   text-decoration: none;
   font-weight: bold;
-  color:var(--accent1-color);
+  color:var(black);
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-left: 1px solid #333;
   font-family: var(--heading-font);
 }
 
