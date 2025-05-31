@@ -7,24 +7,6 @@
   --body-font: "Montserrat", sans-serif;
 }
 
-header {
-  background-color:var(--primary-color);
-  color: var(--accent2-color);
-  width:100%;
-  max-width: none;
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-  padding:16px 40px;
-}
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color:var(--accent1-color);
-  font-weight: bold;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +17,28 @@ body {
   font-family: var(--body-font);
   color:#222;
   background-color: #fff;
+}
+
+header {
+  display: grid;
+  grid-template-columns:auto 1fr;
+  align-items:center;
+  background-color:var(--primary-color);
+  color:var(--accent2-color);
+  padding:16px 40px;
+  width:100%
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin:0 10px;
+  text-decoration: none;
+  color:var(--accent1-color);
+  font-weight:bold;
 }
 
 header, main, footer {
@@ -50,6 +54,47 @@ h1, h2 {
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
+}
+
+.hero {
+  position: relative;
+  text-align:center;
+}
+
+.hero img {
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top:20px;
+  left:0;
+  right:0;
+  padding:16px;
+  background-color: var(--accent2-color);
+  color:#ffffff;
+  opacity:0.9;
+}
+
+.hero article  {
+  position:absolute;
+  bottom:40px;
+  left:50%;
+  transform:translateX(-50%);
+  width:80%;
+  background:#ffd4ff;
+  padding:16px;
+  border-radius: 12px;;
+  display: flex;
+  align-items:center;
+  gap:16px
+}
+
+.hero article img {
+  width:120px;
+  border-radius: 8px;
 }
 
 .socialmedia a {
@@ -108,24 +153,14 @@ h1 {
 .adventure-gallery {
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:center;
   gap:10px;
-  justify-content: center;
 }
 
 .adventure-gallery img {
   width:160px;
   height: auto;
   border-radius: 8px;
-}
-
-.adventure-gallery figure {
-  text-align:center;
-}
-
-.adventure-gallery figcaption {
-  margin-top:6px;
-  font-size:0.9rem;
 }
 
 .history-section {
@@ -155,19 +190,27 @@ h1 {
   width:120px;
   height: auto;
 }
+
+.
+
 footer {
   text-align: center;
   padding: 16px;
   background-color: var(--primary-color);
   color: var(--accent1-color);
   width:100%;
-  max-width:none;
+}
+
+.footer-content{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
 }
 
 .socialmedia {
-  margin-top: 12px;
   display:flex;
-  justify-content: center;
+  justify-content:flex-end;
   gap:20px;
 }
 
