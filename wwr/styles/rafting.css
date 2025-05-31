@@ -173,3 +173,52 @@ nav a {
   border-radius: 6px;
   object-fit: cover;
 }
+
+.intro {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.intro h2 {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent-color);
+}
+
+.intro-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  max-width:900px;
+  margin:0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.intro-text {
+  flex: 2;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.intro-img {
+  flex:1;
+}
+
+.intro-img img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  background-color: #eee;
+  padding: 0.5rem;
+}
