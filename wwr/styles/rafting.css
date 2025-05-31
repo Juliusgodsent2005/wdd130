@@ -256,3 +256,40 @@ nav a {
   min-width: 260px;
 }
 
+.history-section {
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+}
+
+.history-content-horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.history-content-horizontal p {
+  flex: 1;
+  min-width: 220px;
+}
+
+.history-center {
+  text-align: center;
+}
+
+.history-center h2 {
+  font-size: 1.8rem;
+  font-family: var(--heading-font);
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+}
+
+.history-center img {
+  width: 100px;
+  height: auto;
+}
+
+
