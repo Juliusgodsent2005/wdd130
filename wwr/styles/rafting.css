@@ -78,6 +78,7 @@ nav a {
   border-radius: 8px;
   object-fit:cover;
   margin-left:auto;
+  border: 2px solid red;
 }
 
 .hero-text {
