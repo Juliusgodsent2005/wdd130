@@ -256,7 +256,9 @@ footer {
 }
 
 .footer-container p {
+  margin: 0;
   flex: 1;
+  flex-grow: 1;
   text-align: center;
   font-size: 0.95rem;
 }
@@ -264,6 +266,7 @@ footer {
 .social-icons {
   display: flex;
   gap: 1rem;
+  margin-left: auto;
 }
 
 .social-icons img {
