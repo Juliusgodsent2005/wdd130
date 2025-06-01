@@ -37,10 +37,8 @@ header {
 
 nav {
   display: flex;
-  gap: 0;
+  gap: 1rem;
   border: 1px solid #333;
-  border-radius: 4px;
-  overflow: hidden;
   justify-content: flex-end;
 }
 
@@ -56,6 +54,7 @@ nav a {
   padding: 0.5rem 1rem;
   border-left: 1px solid #333;
   font-family: var(--heading-font);
+  border-radius: 5px;
 }
 
 .hero article {
