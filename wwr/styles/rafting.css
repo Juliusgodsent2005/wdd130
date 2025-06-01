@@ -119,37 +119,39 @@ nav a {
   height: auto;
 }
 
-.adventure {
+.adventure-section {
+  text-align: center;
   padding: 40px 20px;
   text-align: center;
 }
 
-.adventure h2 {
+.adventure-section h2 {
   font-family:var(--heading-font);
   color: var(--accent-color);
-  font-size: 1.8rem;
-  margin-bottom: 24px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-.gallery {
+.adventure-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
 }
 
-.gallery figure {
+.adventure-gallery figure {
   text-align: center;
-  width: 140px;
+  width: 160px;
 }
 
-.gallery img {
+.adventure-gallery img {
   width: 100%;
   border-radius: 8px;
 }
 
-.gallery figcaption {
-  margin-top: 8px;
+.adventure-gallery figcaption {
+  margin-top: 0.5rem;
+  font-size:0.9rem;
   font-weight: bold;
 }
 
