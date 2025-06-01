@@ -51,7 +51,7 @@ nav a {
   gap:30px;
   text-decoration: none;
   font-weight: bold;
-  color:var(black);
+  color:black;
   background-color: white;
   padding: 0.5rem 1rem;
   border-left: 1px solid #333;
